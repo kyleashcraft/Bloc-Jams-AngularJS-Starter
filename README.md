@@ -1,30 +1,13 @@
-# Bloc Jams AngularJS Starter
+# Bloc Jams AngularJS
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+Completed version of Bloc Jams web app for Bloc. Hosted by Heroku at https://bloc-jams-ng.herokuapp.com/.
 
-This repository serves as a starter project for Bloc's AngularJS-driven music player app. 
-
-To get started, [fork](https://help.github.com/articles/fork-a-repo/) this repository. Forking a repository makes a copy and adds it to your own GitHub account. This is an important step, because the your work will need be on your Github account and not Bloc's. 
-
-Rename your forked repository to `bloc-jams-angularjs` in Github (available under the **Settings** tab of your repository).
-
-Open your terminal, `cd` into your `~/bloc` directory, and clone your repository.
-
-```bash
-$ cd ~/bloc
-$ git clone https://github.com/{username}/bloc-jams-angularjs.git
-```
-
-Make sure to replace `{username}` with your GitHub username.
-
-1. Change into the directory: `$ cd bloc-jams-angularjs`.
-2. Run `$ npm install` to download/install the needed dependencies
-3. Start the node server: `npm start`.
-4. Open a web browser, go to `http://localhost:3000`, and verify that you see the Bloc Jams landing page.
-
-You can press `ctrl + c` at any time to stop the server. 
-
-You'll want to keep the server running whenever you're working on your project. 
-
-
-
+Potential future User stories to add for practice include:
+* As a developer, when one song finishes, I want the next song to autoplay
+* As a user, I want to mute the volume
+* As a user, I want to have an account so that I can manage my music
+* As a user, I want to have a profile page for other users to view information about me
+* As a user, I want to search a database for a particular song, album, or artist
+* As a user, I want to rate songs, albums, and artists
+* As a user, I want to create custom playlists
+* As a user, I want to add and remove songs from playlists
